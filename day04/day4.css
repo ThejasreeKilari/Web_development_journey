@@ -1,0 +1,92 @@
+body{
+    background-color:grey;
+    line-height: 45px;
+}
+.box{
+    height: 500px;
+    width: 1000px;
+    background: linear-gradient(-45deg,#7fffd4, #ffcba4);
+    margin:auto;
+    margin-top:100px;
+    border-width: 5px;
+    border-color:black;
+    border-style: solid;
+    border-radius: 10px;
+}
+img {
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    position: fixed;
+    top:250px;
+    left:250px;
+    transform: scale(1.5);
+  }
+  .verticalline{
+      border-left: 10px dotted black;
+      height: 400px;
+      position: fixed;
+      top: 145px;
+      left: 555px;
+      opacity:0.3;
+  }
+  .heading{
+      font-size:45px;
+      font-family: monospace;
+      position:fixed;
+      top: 145px;
+      left: 590px;
+  }
+  .heading2{
+      font-size: 30px;
+      font-family: 'Courgette', cursive;
+      position:fixed;
+      top: 250px;
+      left: 590px;
+  }
+  .connect{
+      font-size: 60px;
+      font-family: 'Kaushan Script', cursive;
+      position: fixed;
+      top: 450px;
+      left: 590px;
+      font-weight:400; 
+      text-transform: uppercase;
+
+  }
+  .heart {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #0041c2;
+    height: 50px;
+    width: 50px;
+    transform:rotate(-45deg) ;
+    z-index: 4;
+    margin-left: 765px;
+    margin-top: 450px;
+    
+  }
+  .heart::after {
+    background-color: #0041c2;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 25px;
+  }
+  .heart::before {
+    content: "" ;
+    background-color: #0041c2;
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: 0px;
+  }
