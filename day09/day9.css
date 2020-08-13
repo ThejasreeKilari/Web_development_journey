@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(45deg, #ffa07a,#db7093);
+}
+.box{
+    height: 350px;
+    width: 660px;
+    position:fixed;
+    margin-top:130px;
+    margin-left:300px;
+    background: linear-gradient(45deg, #db7093, #ffa07a);
+    border-radius: 10px;
+}
+img{
+    border-radius:50%;
+    padding:30px;
+}
+ h1{
+    font-family: 'Leckerli One', cursive;
+    font-size: 50px;
+    margin-left:10px;
+    opacity: 0.7;
+}
