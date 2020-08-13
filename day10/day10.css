@@ -1,0 +1,37 @@
+body{
+    background-color: indianred;
+}
+.box{
+    height:250px;
+    width:600px;
+    background-color: lightcoral;
+    position: fixed;
+    margin-top:70px;
+    margin-left: 350px;
+}
+.v1{
+    border-top: 10px solid black;
+}
+.heading{
+    font-size: 50px;
+    font-family: monospace;
+    margin-top:30px;
+    margin-left:30px;
+}
+.box2{
+    height: 250px;
+    width:600px;
+    background-color: lightcoral;
+    position: fixed;
+    margin-top: 340px;
+    margin-left:350px;
+}
+.v2{
+    border-top: 10px solid black;
+}
+.heading2{
+    font-size:50px;
+    font-family:monospace;
+    margin-top:30px;
+    margin-left:30px;
+}
