@@ -1,0 +1,20 @@
+body{
+    background: url("./pic1.jpg");
+    background-size: 1800px 800px;
+    background-repeat: no-repeat;
+}
+.v1{
+    border-left: 10px solid black;
+    height:300px;
+    position: fixed;
+    margin-top:120px;
+    margin-left: 530px;
+}
+.heading{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    margin-top:90px;
+    margin-left: 580px;
+
+}
