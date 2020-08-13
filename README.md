@@ -1,6 +1,5 @@
 # Web_development_journey
 ## My Journey towards Web Development<br>
-<hr>
 <b>Day 1 :</b><br>
 <img src="screenshots/d1.png">
 <hr>
@@ -33,4 +32,4 @@
 <hr>
 <b> Day 11 :</b><br>
 <img src="screenshots/d11.png">
-<hr>
+
