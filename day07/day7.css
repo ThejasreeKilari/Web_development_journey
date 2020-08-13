@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(90deg, rgb(31, 43, 224), lightcoral);
+}
+.box{
+   height: 400px;
+   width: 800px;
+   background-color: black;
+   margin:auto;
+   margin-top: 100px;
+   border-radius: 20px;
+   border-width: 10px;
+   box-shadow: 0px 0px 20px 0px yellow;
+}
+.tag{
+    height:400px;
+    width:50px;
+    background-color: indianred;
+    position:fixed;
+    top: 100px;
+    left: 285px;
+}
+.tag1{
+    height: 400px;
+    width: 50px;
+    background-color: indianred;
+    position: fixed;
+    top: 100px;
+    left: 950px;
+}
+.heading{
+    position:fixed;
+    top: 145px;
+    left: 350px;
+    color: yellowgreen;
+    font-size: 30px;
+    font-family: cursive;
+    font-style: italic;
+}
+.heading1{
+    position:fixed;
+    top: 400px;
+    left:350px;
+    color:yellow;
+    font-size:30px;
+    font-family: 'Leckerli One', cursive;
+}
+.h1{
+    border-top: 10px dotted lightcoral;
+    width: 300px;
+    margin-top:-175px;
+    margin-left:470px;
+}
