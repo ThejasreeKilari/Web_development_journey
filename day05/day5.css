@@ -1,0 +1,85 @@
+body{
+    background: linear-gradient(-45deg, violet, rgb(230, 83, 107));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+.box{
+    height:400px;
+    width: 800px;
+    background-color: black;
+    border-radius: 15px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: darkred;
+    margin: auto;
+    margin-top:100px;
+}
+img{
+    height:200px;
+    width:200px;
+    position: fixed;
+    top:155px;
+    left:780px;
+    transform: scale(1.5);
+    border-radius: 5px;
+}
+.heading{
+    font-size:40px;
+    font-family: 'Patrick Hand', cursive;
+    position: fixed;
+    top: 145px;
+    left: 300px;
+    color:  salmon;
+    text-transform: uppercase;
+}
+.heading2{
+    font-size:50px;
+    font-family: 'Leckerli One', cursive;
+    position:fixed;
+    top: 390px;
+    left: 300px;
+    color: yellow;
+}
+.heart {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: lightcoral;
+    height: 50px;
+    width: 50px;
+    transform:rotate(-45deg) ;
+    z-index: 4;
+    margin-left: 930px;
+    margin-top: 160px;
+    
+  }
+  .heart::after {
+    background-color:lightcoral;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 25px;
+  }
+  .heart::before {
+    content: "" ;
+    background-color: lightcoral;
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: 0px;
+  }
+  .h1{
+      border-top: 10px dotted lightcoral;
+      width: 300px;
+      margin-top:-175px;
+      margin-left:470px;
+  }
