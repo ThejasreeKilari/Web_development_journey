@@ -17,13 +17,13 @@
 <img src="screenshots/d5.png">
 <hr>
 <b> Day 6 :</b><br><br>
-![](screenshots/d6.gif)
+![](https://github.com/ThejasreeKilari/Web_development_journey/blob/master/screenshots/d6.gif)
 <hr>
 <b> Day 7 :</b><br><br>
 <img src="screenshots/d7.png">
 <hr>
 <b> Day 8 :</b><br><br>
-![](screenshots/d8.gif)
+![](https://github.com/ThejasreeKilari/Web_development_journey/blob/master/screenshots/d8.gif)
 <hr>
 <b> Day 9 :</b><br><br>
 <img src="screenshots/d9.png">
