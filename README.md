@@ -33,3 +33,6 @@
 <hr>
 <b> Day 11 :</b><br><br>
 <img src="screenshots/d11.png">
+<hr>
+<b> Day 12 :</b><br><br>
+<img src="screenshots/d12.png">
