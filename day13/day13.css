@@ -1,0 +1,35 @@
+body{
+    background-color: palevioletred;
+}
+.box{
+    display:flex;
+    height:500px;
+    margin-left:350px;
+}
+.box1{
+    height: 300px;
+    width: 300px;
+    background-color: purple;
+    align-self: center;
+}
+.box2{
+    height: 300px;
+    width: 300px;
+    background-color: rebeccapurple;
+    align-self: flex-end;
+}
+.box3{
+    height: 350px;
+    width:540px;
+    background-color: palevioletred;
+    position: fixed;
+    margin-top:125px;
+    margin-left:380px;
+}
+h3{
+    font-size: 50px;
+    font-family: 'Gloria Hallelujah', cursive;
+    line-height: 80px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
