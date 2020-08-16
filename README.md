@@ -39,3 +39,6 @@
 <hr>
 <b> Day 13 :</b><br><br>
 <img src="screenshots/d13.png">
+<hr>
+<b> Day 14 :</b><br><br>
+<img src="screenshots/d14.png">
