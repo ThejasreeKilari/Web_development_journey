@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+}
+.box{
+    height: 300px;
+    width: 900px;
+    margin-top: 180px;
+    margin-left: 200px;
+    display: flex;
+}
+.rh0{
+    height: 30px;
+    width: 30px;
+    flex-direction: row;
+    align-self: flex-start;
+    background-color: yellowgreen;
+    transform: rotate(45deg);
+    opacity: 0.5;
+    
+}
+.rh1{
+    height: 100px;
+    width: 100px;
+    flex-direction: row;
+    align-self: flex-start;
+    background-color: plum;
+    transform: rotate(45deg);
+    opacity: 0.5;
+}
+.rh2{
+    height: 300px;
+    width: 300px;
+    flex-direction: row;
+    align-self: center;
+    background-color: palevioletred;
+    transform: rotate(45deg);
+    opacity: 0.5;
+}
+.rh3{
+    height: 300px;
+    width: 300px;
+    flex-direction: row;
+    align-self: flex-end;
+    background-color: palevioletred;
+    transform: rotate(45deg);
+    opacity: 0.5;
+}
+.rh4{
+    height: 100px;
+    width: 100px;
+    flex-direction: row;
+    align-self: flex-end;
+    background-color: plum;
+    transform: rotate(45deg);
+    opacity: 0.5;
+}
+.rh5{
+    height: 30px;
+    width: 30px;
+    flex-direction: row;
+    align-self: flex-end;
+    background-color: yellowgreen;
+    transform: rotate(45deg);
+    opacity: 0.5;
+}
+.main-rh{
+    height: 300px;
+    width: 300px;
+    background-color: sandybrown;
+    margin-top:-320px;
+    margin-left: 465px;
+    transform: rotate(45deg);
+    border: 20px double black;
+    box-shadow: 0 0 0 5px sandybrown;
+    z-index:2;
+}
+.main-rh h1{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    transform: rotate(-45deg);
+    text-align: center;
+}
