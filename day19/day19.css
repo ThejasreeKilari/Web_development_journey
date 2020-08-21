@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+.box{
+    height: 400px;
+    width: 750px;
+    background-color: darksalmon;
+    margin-top:100px;
+    margin-left: 250px;
+    border-radius: 6px;
+    border: 10px  dotted black;
+    box-shadow: 0 0 0 5px darksalmon;
+}
+.box h2{
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    margin-top:5px;
+}
+.box1{
+    height: 300px;
+    width: 730px;
+    background-color: black;
+    margin-top:-380px;
+    margin-left: 270px;
+    border-radius: 6px;
+    z-index: 2;
+}
+.box1 h1{
+    color: darksalmon;
+    font-size: 68px;
+    text-align: center;
+}
+.box1 h1 span{
+    font-size: 40px;
+}
