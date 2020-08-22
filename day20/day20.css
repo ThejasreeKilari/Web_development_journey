@@ -1,0 +1,72 @@
+body{
+    background-color: goldenrod;
+}
+.box1{
+    height: 300px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 180px;
+    margin-left: 280px;
+    transform: rotate(30deg);
+}
+.box11{
+    height: 300px;
+    width:300px;
+    background-color: purple;
+    align-items: center;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+.box12{
+    height: 300px;
+    width: 300px;
+    background-color: purple;
+    align-items: flex-end;
+    border-radius: 50%;
+    margin-left: 100px;
+    opacity: 0.5;
+}
+.box2{
+    height: 400px;
+    width: 900px;
+    background-color: goldenrod;
+    margin-left: 180px;
+    margin-top: -350px;
+}
+.box21{
+    height: 120px;
+    width: 120px;
+    background-color: saddlebrown;
+    border-radius: 50%;
+    opacity: 0.8;
+    align-items: center;
+    margin-top:20px;
+}
+.box22{
+    height: 120px;
+    width: 120px;
+    background-color: saddlebrown;
+    border-radius: 50%;
+    opacity: 0.8;
+    align-items: flex-end;
+    margin-top: 130px;
+    margin-left: 780px;
+}
+.main-round{
+    height: 400px;
+    width: 400px;
+    background-color: teal;
+    border-radius: 50%;
+    border: 8px dotted black;
+    box-shadow: 0 0 0 5px teal;
+    position: relative;
+    margin-left: 405px;
+    margin-top: -400px;
+    z-index: 3;
+}
+.main-round h2{
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
