@@ -60,3 +60,6 @@
 <hr>
 <b> Day 20 :</b><br><br>
 <img src="screenshots/d20.png">
+<hr>
+<b> Day 21 :</b><br><br>
+<img src="screenshots/d21.png">
