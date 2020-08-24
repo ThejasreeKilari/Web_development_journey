@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+.box{
+    height: 400px;
+    width: 800px;
+    background-color: goldenrod;
+    margin-top: 100px;
+    margin-left: 230px;
+    border: 10px dotted black;
+    box-shadow: 0 0 5px 20px goldenrod;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.tag1{
+    height: 400px;
+    width: 50px;
+    background-color: darkred;
+    margin-top: -570px;
+    margin-left: 300px;
+    transform: skewY(-45deg)
+}
+.tag2{
+    height: 400px;
+    width: 50px;
+    background-color: darkred;
+    margin-top: -400px;
+    margin-left: 350px;
+    transform: skewY(45deg)
+}
+.box h1{
+    margin-left: 280px;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Pangolin', cursive;
+}
