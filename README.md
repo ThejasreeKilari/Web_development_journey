@@ -66,3 +66,6 @@
 <hr>
 <b> Day 22 :</b><br><br>
 <img src="screenshots/d22.png">
+<hr>
+<b> Day 23 :</b><br><br>
+<img src="screenshots/d23.png">
