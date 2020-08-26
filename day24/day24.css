@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+    position: fixed;
+}
+header{
+    position: fixed;
+}
+.tag01{
+    height: 300px;
+    width:30px;
+    background-color: brown;
+    transform: skewY(-45deg);
+    margin-left: 140px;
+    margin-top: -30px;
+}
+.tag02{
+    height: 300px;
+    width:30px;
+    background-color: darkblue;
+    transform: skewY(45deg);
+    margin-left: 170px;
+    margin-top: -300px;
+}
+.tag11{
+    height: 600px;
+    width:30px;
+    background-color: green;
+    transform: skewY(-45deg);
+    margin-left: 50px;
+    margin-top: -300px;
+}
+.tag12{
+    height: 600px;
+    width:30px;
+    background-color: goldenrod;
+    transform: skewY(45deg);
+    margin-left: 80px;
+    margin-top: -600px;
+}
+.tag21{
+    height: 300px;
+    width:30px;
+    background-color: darkblue;
+    transform: skewY(-45deg);
+    margin-left: 1030px;
+    margin-top: -600px;
+}
+.tag22{
+    height: 300px;
+    width:30px;
+    background-color: brown;
+    transform: skewY(45deg);
+    margin-left: 1060px;
+    margin-top: -300px;
+}
+.tag31{
+    height: 600px;
+    width:30px;
+    background-color: goldenrod;
+    transform: skewY(-45deg);
+    margin-left: 1120px;
+    margin-top: -300px;
+}
+.tag32{
+    height: 600px;
+    width:30px;
+    background-color: green;
+    transform: skewY(45deg);
+    margin-left: 1150px;
+    margin-top: -600px;
+}
+.heading{
+    height: 250px;
+    width: 600px;
+    margin-top: 80px;
+    margin-left: 310px;
+}
+.heading h1{
+    font-size: 50px;
+    text-align: center;
+    line-height: 70px;
+}
+.heading h1 span{
+    background-color: pink;
+}
+.end{
+    font-size: 80px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 90px;
+    margin-left: 330px;
+}
