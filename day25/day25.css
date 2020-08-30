@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+}
+.box{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-top: 160px;
+}
+.b1{
+    height: 300px;
+    width: 300px;
+    transform: rotate(-30deg);
+    background-color: tomato;
+    opacity: 0.5;
+}
+.b2{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-left: 480px;
+    transform: rotate(30deg);
+    background-color: palevioletred;
+    opacity: 0.5;
+}
+.b3{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-left: 480px;
+    transform: rotate(45deg);
+    background-color: plum;
+    border: 4px dotted black;
+    box-shadow: 0 0 0 2px plum;
+}
+.box1{
+    height: 500px;
+    width: 900px;
+    margin-top: -400px;
+    margin-left: 200px;
+}
+.c1{
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.c2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-top:300px;
+    margin-left: 700px;
+}
+.c3{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: lightgreen;
+    margin-top:-390px;
+    margin-left: 40px;
+}
+.c4{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: lightgreen;
+    margin-top:120px;
+    margin-left: 780px;
+}
+.c5{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: limegreen;
+    margin-top:-170px;
+    margin-left: 15px;
+}
+.c6{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: limegreen;
+    margin-top:-35px;
+    margin-left: 835px;
+}
+.b3 h1{
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    transform: rotate(-45deg);
+    text-align-last: center;
+}
