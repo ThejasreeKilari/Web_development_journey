@@ -78,3 +78,7 @@
 <hr>
 <b> Day 26 :</b><br><br>
 <img src="screenshots/d26.png">
+<hr>
+<b> Day 27-28 :</b><br><br>
+<img src="screenshots/d27.png">
+<img src="screenshots/d28.gif">
