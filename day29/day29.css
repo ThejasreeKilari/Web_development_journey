@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: sans-serif;
+}
+.initial-box{
+    width: 300px;
+    height: 600px;
+    border-radius: 60px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+.upper{
+    width: 300px;
+    height: 300px;
+    border-radius: 60px 60px 0px 60px;
+    background: url(./pic.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.upper .pic{
+    height: 100px;
+    width: 60px;
+    transform: scale(2.4);
+    position: absolute;
+    top: 100px;
+    left: 120px;
+}
+.corner{
+    height: 60px;
+    width: 60px;
+    background-color:#4A4B49;
+    background-size: fill;
+    float: right;
+}
+.corner-dup{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-top-right-radius: 60px;
+}
+.initial-box h1{
+    margin:60px;
+    padding:0 0 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.initial-box p{
+    margin-top: -60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.initial-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 200px;
+    background: rgb(122, 120, 120);
+    color: #fff;
+    font-size: 18px;
+    border-radius:15px;
+    margin-left: 15%;
+    margin-top: 0%;
+}
+.initial-box1{
+    width: 300px;
+    height: 600px;
+    border-radius: 60px;
+    background-color: white;
+    margin-top: -600px;
+    margin-left: 650px;
+}
+.upper1{
+    width: 300px;
+    height: 300px;
+    border-radius: 60px 60px 60px 0px;
+    background: url(./pic1.jpg);
+    background-position: cover;
+    background-size: cover;
+}
+.corner1{
+    height: 60px;
+    width: 60px;
+    background-color: #001118;
+    background-size: fill;
+}
+.corner-dup1{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-top-left-radius: 60px;
+}
+.initial-box1 h1{
+    margin-top:-30px;
+    padding:0 0 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.initial-box1 p{
+    margin: -15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+.initial-box1 input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 200px;
+    background: #00424E;
+    color: #fff;
+    font-size: 18px;
+    border-radius:15px;
+    margin-left: 15%;
+    margin-top: 10%;
+}
