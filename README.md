@@ -85,7 +85,10 @@
 <hr>
 <b> Day 29 :</b><br><br>
 <img src="screenshots/d29.png">
+<hr>
 <b> Day 30-31 :</b><br><br>
 <img src="screenshots/d30.png">
 <img src="screenshots/d31.gif">
 <hr>
+<b> Day 32 :</b><br><br>
+<img src="screenshots/d32.png">
