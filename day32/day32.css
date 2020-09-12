@@ -1,0 +1,22 @@
+body{
+    position: relative;
+    background: url(./pic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin:0;
+}
+.design h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin:0px;
+    text-align: center;
+    background: black;
+    opacity:0.5;
+    color: pink;
+}
+.design svg{
+    display:block;
+}
