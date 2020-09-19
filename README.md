@@ -95,3 +95,7 @@
 <hr>
 <b> Day 33 :</b><br><br>
 <img src="screenshots/d33.png">
+<hr>
+<b> Day 34 :</b><br><br>
+<img src="screenshots/d34.png">
+<img src="screenshots/d341.gif">
