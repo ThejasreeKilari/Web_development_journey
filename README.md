@@ -99,3 +99,7 @@
 <b> Day 34 :</b><br><br>
 <img src="screenshots/d34.png">
 <img src="screenshots/d341.gif">
+<hr>
+<b> Day 35 :</b><br><br>
+<img src="screenshots/d35.png">
+<img src="screenshots/d351.gif">
