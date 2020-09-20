@@ -1,0 +1,40 @@
+body {
+    padding:0;
+    margin:0;
+    overflow: hidden;
+}
+.sky {
+    width:100%;
+    height:650px;
+    background: transparent url(./sky.jpg) top left no-repeat;
+    background-size: 100% 100%;
+    margin:auto;
+    position:relative;
+}
+.cloud {
+    width: 250px;
+    height:200px;
+    position:absolute;
+    background:transparent url(./cloud.png) 0 0 no-repeat;
+}
+.cloud1 {
+    top:100px;
+    z-index:100;
+    animation: drift 25s linear infinite;
+
+}      
+.cloud2 {
+    top:240px;
+    z-index: 200;	
+    animation: drift 35s 10s linear infinite backwards;			 
+}
+.mountain{
+    position: relative;
+    z-index:10;
+    margin-top:-20%;
+
+}
+@keyframes drift {
+    from{transform: translateX(-255px);}
+    to {transform: translateX(1350px);}
+}
