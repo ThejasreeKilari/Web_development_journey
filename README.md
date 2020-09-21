@@ -103,3 +103,7 @@
 <b> Day 35 :</b><br><br>
 <img src="screenshots/d35.png">
 <img src="screenshots/d351.gif">
+<hr>
+<b> Day 36 :</b><br><br>
+<img src="screenshots/d36.png">
+<img src="screenshots/d361.gif">
