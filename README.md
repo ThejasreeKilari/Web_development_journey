@@ -107,3 +107,6 @@
 <b> Day 36 :</b><br><br>
 <img src="screenshots/d36.png">
 <img src="screenshots/d361.gif">
+<hr>
+<b> Day 37-38 :</b><br><br>
+<img src="screenshots/d37.png">
