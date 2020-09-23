@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    margin:0;
+    overflow: hidden;
+}
+.leftside{
+    width: 30rem;
+    height: 50rem;
+    background: indigo;
+}
+.leftside img{
+    height: 470px;
+    width: 320px;
+    border: 5px solid white;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 6rem;
+}
+.leftside h1{
+    font-size: 50px;
+    transform: rotate(-90deg);
+    margin-left: -15rem;
+    margin-top: 10rem;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+.rightside{
+    width: 50rem;
+    height: 50rem;
+    background: indianred;
+}
+.rightside h1{
+    padding-left: 9rem;
+    padding-top: 5rem;
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+}
+.rightside h2{
+    padding-left: 5rem;
+    padding-top: 5rem;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: indigo;
+    text-transform: uppercase;
+    text-align: center;
+}
