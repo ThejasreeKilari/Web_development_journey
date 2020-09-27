@@ -113,3 +113,6 @@
 <hr>
 <b> Day 39-41 :</b><br><br>
 <img src="screenshots/d39.png">
+<hr>
+<b> Day 42 :</b><br><br>
+<img src="screenshots/d42.png">
