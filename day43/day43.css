@@ -1,0 +1,146 @@
+body{
+    background: tomato;
+}
+.box-outer{
+    height: 25em;
+    width: 15em;
+    background: tomato;
+    border-radius: 25px ;
+    border: 6px solid darkcyan;
+    margin-top: 120px;
+    margin-left: 850px;
+}
+.box-inner img{
+    height:25em;
+    width: 15em;
+    border-radius: 25px;
+    margin-top: -500px;
+    margin-left: 820px;
+}
+.heading{
+    font-size: 50px;
+    position: relative;
+    margin-top: -300px;
+    margin-left: 50px;
+    margin-right: 450px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+span{
+    position: relative;
+}
+.char1 {
+    text-shadow: 0.1em 0.1em 0.1em grey;
+    font-size: 55px;
+}
+.char3 {
+    text-shadow: 0.1em 0.1em 0.1em darkcyan;
+    font-size: 55px;
+}
+.char5 {
+    text-shadow: 0.1em 0.1em 0.1em grey;
+    font-size: 55px;
+}
+.char8 {
+    text-shadow: 0.1em 0.1em 0.1em darkcyan;
+    font-size: 55px;
+}
+.char10 {
+    text-shadow: 0.1em 0.1em 0.1em gray;
+    font-size: 55px;
+}
+.char12 {
+    text-shadow: 0.1em 0.1em 0.1em darkcyan;
+    font-size: 55px;
+}
+.char15 {
+    text-shadow: 0.1em 0.1em 0.1em grey;
+    font-size: 55px;
+}
+.char17 {
+    text-shadow: 0.1em 0.1em 0.1em darkcyan;
+    font-size: 55px;
+}
+.char20 {
+    text-shadow: 0.1em 0.1em 0.1em gray;
+    font-size: 55px;
+}
+.char22 {
+    text-shadow: 0.1em 0.1em 0.1em darkcyan;
+    font-size: 55px;
+}
+.char24 {
+    text-shadow: 0.1em 0.1em 0.1em gray;
+    font-size: 55px;
+}
+.char26 {
+    text-shadow: 0.1em 0.1em 0.1em darkcyan;
+    font-size: 55px;
+}
+.char28 {
+    text-shadow: 0.1em 0.1em 0.1em goldenrod;
+    font-size: 55px;
+}
+.char30 {
+    text-shadow: 0.1em 0.1em 0.1em darkcyan;
+    font-size: 55px;
+}
+.char32 {
+    text-shadow: 0.1em 0.1em 0.1em gray;
+    font-size: 55px;
+}
+.char35 {
+    text-shadow: 0.1em 0.1em 0.1em darkcyan;
+    font-size: 55px;
+}
+.char36 {
+    text-shadow: 0.1em 0.1em 0.1em gray;
+    font-size: 55px;
+}
+.char38 {
+    text-shadow: 0.1em 0.1em 0.1em darkcyan;
+    font-size: 55px;
+}
+.char40 {
+    text-shadow: 0.1em 0.1em 0.1em gray;
+    font-size: 55px;
+}
+.char43 {
+    text-shadow: 0.1em 0.1em 0.1em darkcyan;
+    font-size: 55px;
+}
+.char45 {
+    text-shadow: 0.1em 0.1em 0.1em gray;
+    font-size: 55px;
+}
+.char47 {
+    text-shadow: 0.1em 0.1em 0.1em white;
+    font-size: 55px;
+}
+.char48 {
+    text-shadow: 0.1em 0.1em 0.1em darkcyan;
+    font-size: 55px;
+}
+.char51 {
+    text-shadow: 0.1em 0.1em 0.1em gray;
+    font-size: 55px;
+}
+.char53 {
+    text-shadow: 0.1em 0.1em 0.1em darkcyan;
+    font-size: 55px;
+}
+.char55 {
+    text-shadow: 0.1em 0.1em 0.1em gray;
+    font-size: 55px;
+}
+.char58 {
+    text-shadow: 0.1em 0.1em 0.1em goldenrod;
+    font-size: 55px;
+}
+.char59 {
+    text-shadow: 0.1em 0.1em 0.1em goldenrod;
+    font-size: 55px;
+}
+.char61 {
+    text-shadow: 0.1em 0.1em 0.1em grey;
+}
