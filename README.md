@@ -122,3 +122,7 @@
 <hr>
 <b> Day 44 :</b><br><br>
 <img src="screenshots/d44.png">
+<hr>
+<b> Day 45 :</b><br><br>
+<img src="screenshots/d45.png">
+<img src="screenshots/d451.gif">
