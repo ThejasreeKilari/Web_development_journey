@@ -1,0 +1,48 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 20%; /* Include this line if you don't find everything arranged in center perfectly*/
+}
+:root{
+    --blue: #4284f4;
+    --red: #eb4236;
+    --yellow: #fcbc05;
+    --green: #34a854;
+    --size: 2.5rem;
+}
+.google-loader{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: var(--size);
+    justify-content: center;
+    align-items: center;
+}
+.dot{
+    background-color: gray;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    animation: ani 1s ease-out infinite alternate;
+}
+.blue{
+    background-color: var(--blue);
+    animation-delay: 0.2s;
+}
+.red{
+    background-color: var(--red);
+    animation-delay: 0.4s;
+}
+.yellow{
+    background-color: var(--yellow);
+    animation-delay: 0.6s;
+}
+.green{
+    background-color: var(--green);
+    animation-delay: 0.8s;
+}
+@keyframes ani{
+    to{
+        transform: translateY(1.2rem) ;
+    }
+}
