@@ -130,3 +130,7 @@
 <b> Day 46 :</b><br><br>
 <img src="screenshots/d46.png">
 <img src="screenshots/d461.gif">
+<hr>
+<b> Day 47-49 :</b><br><br>
+<img src="screenshots/d47.png">
+<img src="screenshots/d471.gif">
