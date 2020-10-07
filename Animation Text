@@ -1,0 +1,143 @@
+<!--------------index.html file------------->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section>
+            <video src="video/smoke.mp4" autoplay muted></video>
+            <h1>
+                <span>P</span>
+                <span>A</span>
+                <span>T</span>
+                <span>I</span>
+                <span>E</span>
+                <span>N</span>
+                <span>C</span>
+                <span>E</span>
+                
+            </h1>
+            <div class="under-para"><p>Success Doesn't Happen Over Night !</p></div>
+        </section>
+    </body>
+</html>    
+
+
+/********************************style.css file*******************/
+
+
+body{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+section{
+    height:100vh;
+    background: #000;
+}
+section::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #FF1853,#2C28CD,#FF18BD,#FF18BD,#FF181C,#C21114);
+    pointer-events: none;
+    mix-blend-mode: color;
+}
+video{
+    object-fit: cover;
+}
+h1{
+    margin:0;
+    padding:0;
+    color:#ddd;
+    position: absolute;
+    top:50%;
+    transform: translateY(-80%);
+    width:100%;
+    text-align: center;
+    font-size: 7em;
+    font-family: monospace;
+    letter-spacing: 0.01em;
+}
+h1 span{
+    opacity: 0;
+    display: inline-block;
+    animation: reveal 1s linear forwards;
+}
+@keyframes reveal{
+    0%{
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+    }
+}
+h1 span:nth-child(1){
+    animation-delay: 1s;
+}
+h1 span:nth-child(2){
+    animation-delay: 2s;
+    
+}
+h1 span:nth-child(3){
+    animation-delay: 2.5s;
+	 color: #FF181C;
+}
+h1 span:nth-child(4){
+    animation-delay: 3s;
+	
+}
+h1 span:nth-child(5){
+    animation-delay:3.5s;
+	 
+}
+h1 span:nth-child(6){
+    animation-delay:3.85s;
+	 
+}
+h1 span:nth-child(7){
+    animation-delay:4s;
+	
+}
+h1 span:nth-child(8){
+    animation-delay:4.5s;
+}
+h1 span:nth-child(9){
+    animation-delay:4.85s;
+	 
+}
+
+.under-para{
+    position: absolute;
+    top:90%;
+    transform: translateY(-90%);
+    width:100%;
+    text-align: center;
+    font-size: 2.5em;
+    color:#ddd;
+    font-family: 'Dancing Script', cursive;  
+    animation: lowerText 2s linear forwards;  
+    animation-delay: 4.5s;
+    opacity:0;
+}
+@keyframes lowerText{
+    0%{
+        opacity:0;
+    }     
+    100%{
+        opacity:1;
+    }
+}
