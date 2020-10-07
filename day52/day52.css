@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    padding:0;
+}
+ul{
+    margin:0;
+    padding:0;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+    color: #262626;
+    overflow: hidden;
+    margin:8px;
+    transition: .2s;
+    border: 1px solid rgba(0,0,0,1);
+    transform: rotate(45deg);
+}
+ul li a .fa{
+    transform: rotate(-45deg);
+}
+ul li a:before{
+    content:'';
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width:100%;
+    height:100%;
+    background: #262626;
+    transition: .2s;
+}
+ul li a:hover:before{
+    bottom:0;    
+}
+ul li a:hover{
+    color:#fff;
+}
+ul li:nth-child(1) a:before{
+    background: #007bb5;
+}
+ul li:nth-child(2) a:before{
+    background: #3B5998;
+}
+ul li:nth-child(3) a:before{
+    background: #33CCFF;
+}
+ul li:nth-child(4) a:before{
+    background: #c32aa3;
+}
+ul li:nth-child(5) a:before{
+    background: #212121;
+}
+ul li:nth-child(6) a:before{
+    background: #00ab6b;
+}
+ul li:nth-child(7) a:before{
+    background: #000000;
+}

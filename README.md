@@ -142,3 +142,7 @@
 <b> Day 51 :</b><br><br>
 <img src="screenshots/d51.jpg">
 <img src="screenshots/d511.gif">
+<hr>
+<b> Day 52 :</b><br><br>
+<img src="screenshots/d52.png">
+<img src="screenshots/d521.gif">
