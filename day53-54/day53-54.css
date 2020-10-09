@@ -1,0 +1,87 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: indianred;
+}
+.list{
+    position: relative;
+    background: plum;
+    width: 500px;
+    border-radius: 15px;
+}
+.list h1{
+    background: indigo;
+    color:indianred;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin:0;
+    padding:10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.list ul{
+    position: relative;
+    padding: 5px 20px;
+    color: indianred;
+}
+.list ul li{
+    position: relative;
+    list-style: none;
+    padding: 15px 0;
+    border-bottom: 1px solid indigo;
+}
+.list ul li:last-child{
+    border-bottom: none;
+}
+.list ul li label{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.list ul li label input{
+    visibility: hidden;
+    appearance: none;
+}
+.list ul li label p{
+    position: absolute;
+}
+.list ul li label span{
+    position: relative;
+    width:20px;
+    height:20px;
+    border: 1px solid indianred;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list ul li label span:before{
+    content:'';
+    position: absolute;
+    top:5px;
+    width:10px;
+    height:5px;
+    border-left: 2px solid indianred;
+    border-bottom: 2px solid indianred;
+    transform: rotate(-40deg);
+}
+.list ul li label input:checked ~ p{
+    text-decoration: line-through;
+    color: indigo;
+}
+.list ul li label input:checked ~ span{
+    background: indigo;
+    border: 1px solid indigo;
+}
+.list ul li label input:checked ~ span:before{
+    border-left: 2px solid indianred;
+    border-bottom: 2px solid indianred;
+}
