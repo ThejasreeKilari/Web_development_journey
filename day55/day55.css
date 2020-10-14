@@ -1,0 +1,71 @@
+body{
+    background: url(./pic.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.header-list{
+    /*background-color: rgba(0, 0, 0, .6);*/
+    position: relative;
+    padding: 45px 10px 0px 180px;
+}
+.header-list ul{
+    list-style: none;
+    text-transform: uppercase;
+    font-size:20px;
+    font-weight: bold;
+    margin: 0;
+    padding:0;
+}
+.header-list > ul > li{
+    float: left;
+    background-color: rgba(0, 0, 0, .6) ;
+    text-align: center;
+}
+.header-list ul::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.header-list ul li:hover{
+    background-color: rgba(102, 87, 0, 0.8);
+}
+.header-list ul li:hover > ul{
+    display: block;
+}
+.header-list ul li a{
+    display: inline-block;
+    color:#fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 125px;
+}
+.header-list ul li a:hover{
+    background-color: goldenrod;
+}
+.header-list ul ul{
+    display: none;
+    position: absolute;
+    top:100%;
+    background-color: rgba(102, 87, 0, 0.8);
+}
+.header-list ul ul li{
+    position: relative;
+}
+.header-list ul ul ul{
+    left:100%;
+    top:0%;
+}
+.header-list > ul{
+    padding-left: 35px;
+}
+.header-list >ul >li{
+    float:left;
+}
+/*.header-list > ul >li > a{
+    padding: 10px 20px 15px 20px;
+    width: auto;
+}*/
