@@ -154,3 +154,7 @@
 <b> Day 55 :</b><br><br>
 <img src="screenshots/d55.png">
 <img src="screenshots/d551.gif">
+<hr>
+<b> Day 56 :</b><br><br>
+<img src="screenshots/d56.png">
+<img src="screenshots/d561.gif">
