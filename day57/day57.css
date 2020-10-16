@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding:0;
+}
+body.dark{
+    background-color: #292c35;
+    color:#fff;
+}
+.header{
+    height: 80px;
+    width:100%;
+    background-color: black;
+    color: #fff;
+    text-align:center;
+    font-size: 50px;
+    font-family: monospace;
+    text-transform: uppercase;
+    padding: 10px 0 0 0;
+}
+input[type="checkbox"]{
+    position:fixed;
+    z-index:1;
+    top:20px;
+    right: 100px;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+input[type="checkbox"]:before{
+    content: 'Change';
+    color:#fff;
+    background: #000;
+    padding:10px 20px;
+    font-size: 30px;
+}
+.box{
+    height: 320px;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 25%;
+    border: 5px solid #000;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+.heading{
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    position: relative;
+    top:20%;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome</title>
+        <link rel="stylesheet" href="day57.css">
+    </head>
+    <body>
+        <div class="header">Shift to dark/Light mode ?
+            <input type="checkbox" class="checkbox" id="checkbox" name="">
+        </div>
+        <div class="section">
+            <div class="box">
+                <h1 class="heading">“Shoot for the moon. Even if you miss it you will land among the stars.” <br>- Les Brown</h1>
+            </div>
+        </div>
+        <script>
+            const checkbox = document.getElementById('checkbox');
+            checkbox.addEventListener('change', () => {
+            document.body.classList.toggle('dark')})
+        </script>
+    </body>
+</html>
